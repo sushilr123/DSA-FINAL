@@ -1,3 +1,12 @@
+// Bellman-Ford Algorithm in C++
+/*
+Given a directed graph with possibly negative weight edges, find the shortest path from a given source vertex to all other vertices in the graph. If there is a negative weight cycle reachable from the source, report it.
+Logic:
+1. Initialize distances from the source to all vertices as infinite and distance to the source itself as 0.
+2. Relax all edges |V| - 1 times, where |V| is the number of vertices in the graph. For each edge (u, v) with weight w, if the distance to u plus w is less than the distance to v, update the distance to v.
+3. After the |V| - 1 iterations, check for negative weight cycles by trying to relax the edges one more time. If any distance can still be reduced, it means there is a negative weight cycle in the graph.
+Time Complexity: O(V * E) where V is the number of vertices and E is the number of edges in the graph.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 

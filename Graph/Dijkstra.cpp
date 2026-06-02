@@ -1,3 +1,15 @@
+// Dijkstra's Algorithm in C++
+/*
+Given a directed graph with non-negative edge weights, find the shortest path from a given source vertex to all other vertices in the graph.
+Logic:
+1. Use a priority queue (min-heap) to efficiently retrieve the vertex with the smallest distance.
+2. Initialize distances from the source to all vertices as infinite and distance to the source itself as 0.
+3. While the priority queue is not empty:
+   a. Extract the vertex with the smallest distance (let's call it u).
+   b. For each adjacent vertex v of u, if the distance to u plus the weight of the edge (u, v) is less than the current distance to v, update the distance to v and add it to the priority queue.   
+Time Complexity: O((V + E) log V) where V is the number of vertices and E is the number of edges in the graph.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
