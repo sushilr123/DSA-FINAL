@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Hp/OneDrive/Desktop/DSA-FINAL/DP",
-      "program": "c:/Users/Hp/OneDrive/Desktop/DSA-FINAL/DP/build/Debug/outDebug",
+      "cwd": "c:/Users/Hp/OneDrive/Desktop/DSA-FINAL/Contest/ABC460",
+      "program": "c:/Users/Hp/OneDrive/Desktop/DSA-FINAL/Contest/ABC460/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
